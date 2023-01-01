@@ -1,7 +1,8 @@
+import Jumbotron from '../components/cards/Jumbotron'
 export default function Login() {
     return (
       <div>
-      <h1>Login</h1>
+      <Jumbotron title="Login" />
       </div>
     );
   }

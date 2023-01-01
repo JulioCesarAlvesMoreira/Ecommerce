@@ -1,10 +1,13 @@
-export default function Jumbotron(){
+export default function Jumbotron({
+    title,
+    subtitle = "E-commerce"
+}){
     return (
 <div className="container-fluid bg-primary">
     <div className="row">
         <div className="col text-center p-5 bg-light">
-            <h1>Título a Página</h1>
-            <p className="lead">Subtítulo da página</p>
+            <h1>{title}</h1>
+            <p className="lead">{subtitle}</p>
         </div>
     </div>
 </div>
