@@ -10,7 +10,7 @@ export default function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      
+      console.log(name,email,password);
     } catch (err) {
       console.log(err);
     }
